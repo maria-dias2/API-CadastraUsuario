@@ -1,0 +1,34 @@
+Front end - parte gráfica
+Se comunica com o back end - servidor
+Logar ou cadastrar, o site vai se conectar com o servidor. 
+
+-- Rotas - Requisição e Resposta
+get 
+post
+delete
+put
+
+-- http métodos
+get - listar
+post - criar
+put - editar vários
+patch - editar um
+delete - deletar
+
+
+para fazer o sevidor rodas
+abre terminal 
+node nomeArquivo
+
+-- Request
+Query params(get) - consultar - parametros por meio da url
+informações que não relevante, qualquer um pode enxergar, para enviar informações menores
+
+route params (get/put/delete)- buscar, deletar ou editar algo específico
+
+body params (post e put) - algo delicado, ou muitas informações
+
+-- HTTP Status
+2xx - sucesso
+4xx - erro cliente (front-end)
+5xx - erro servidor (back-end)
